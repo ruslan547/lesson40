@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>lesson40</title>
+    <style>
+        form {
+            width: 500px;
+        }
+    </style>
 </head>
 <body>
-    <form>
+    <form method="POST" action="myServlet">
         <div>
             <label for="first-param">First Parameter: </label>
             <input id="first-param" type="text" value="first" name="first-param"/>
@@ -16,11 +21,11 @@
         </div>
         <div>
             <label for="third-param1">Third Parameter [1]: </label>
-            <input id="third-param1" type="password" name="third-param"/>
+            <input id="third-param1" type="password" value="52435" name="third-param"/>
         </div>
         <div>
             <label for="third-param2">Third Parameter [2]: </label>
-            <input id="third-param2" type="password" name="third-param"/>
+            <input id="third-param2" type="password" value="12345" name="third-param"/>
         </div>
         <fieldset>
             <div>
